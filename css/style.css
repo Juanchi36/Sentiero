@@ -1,0 +1,53 @@
+.navbar-brand img{
+	width: 60px;
+}
+body{
+	padding-top: 0;
+}
+.bg-dark{
+	opacity: 0.95;
+}
+.mr-auto{
+	margin-right: 0 !important;
+	margin-left: auto !important;
+}
+.navbar  h1{
+	color: #ec6c16;
+	opacity: initial;
+	font-size: 1.8em;
+	font-family: 'Krona One', sans-serif;
+}
+.carousel-indicators li{
+	border-radius: 25px;
+	width: 11px;
+	height: 11px;
+}
+.btn-primary{
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#AB6400), to(#FF7E28));
+	border-color: #ffffff;
+}
+.btn-primary:hover {
+    color: #fff;
+    background:-webkit-gradient(radial, 123 101, 0, 220 -257, 465, from(#866400), to(#ff4e28));
+    border-color: #000000; 
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+	color: #ec6c16;
+	font-family: 'Krona One', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #ec6c16;
+	font-family: 'Krona One', sans-serif;
+}
+.row{
+	margin-top: 50px;
+}
+button:focus {
+    
+    outline: 5px auto #fff;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff4e28; 
+    border-color: #ff4e28; 
+}
