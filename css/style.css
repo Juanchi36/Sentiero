@@ -16,6 +16,7 @@ body{
 	opacity: initial;
 	font-size: 1.8em;
 	font-family: 'Krona One', sans-serif;
+	margin-right: 23px;
 }
 .carousel-indicators li{
 	border-radius: 25px;
