@@ -4,6 +4,7 @@
 body{
 	padding-top: 0;
 	overflow-x:hidden;
+	
 }
 .bg-dark{
 	opacity: 0.95;
@@ -89,4 +90,28 @@ button:focus {
 }
 .lead{
 	margin-bottom: 30px;
+}
+@media (max-width: 640px){
+	.col-md-7 h2{
+		font-size: 40px;
+	}
+
+}
+@media (max-width: 370px){
+	.navbar  h1{
+		color: #ec6c16;
+		opacity: initial;
+		font-size: 1.4em;
+		font-family: 'Krona One', sans-serif;
+		margin-right: 23px;
+	}
+}
+@media (max-width: 330px){
+	.navbar  h1{
+		color: #ec6c16;
+		opacity: initial;
+		font-size: 1em;
+		font-family: 'Krona One', sans-serif;
+		margin-right: 23px;
+	}
 }
