@@ -3,6 +3,7 @@
 }
 body{
 	padding-top: 0;
+	overflow-x:hidden;
 }
 .bg-dark{
 	opacity: 0.95;
@@ -50,4 +51,41 @@ button:focus {
     color: #fff;
     background-color: #ff4e28; 
     border-color: #ff4e28; 
+}
+@media (min-width: 62em){
+	.featurette-heading {
+		margin-top: 0rem;
+	}
+}
+.col-md-7{
+	padding: 0 60px 0 60px;
+	
+}
+@media (min-width: 768px){
+
+	.col-md-7 {
+		-webkit-box-flex: none;
+		-ms-flex: none;
+		flex: none;
+		max-width: none;
+		padding: 0 200px 0 200px;
+	}
+}
+.featurette-divider {
+    margin: 1rem 0;
+}
+.col-md-7 h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+#productos{
+	font-weight: 300;
+    line-height: 1;
+	letter-spacing: -.05rem;
+	font-size: 50px;
+	text-align: center;
+	padding: 30px 30px 10px 30px;
+}
+.lead{
+	margin-bottom: 30px;
 }
