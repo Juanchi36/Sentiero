@@ -76,7 +76,7 @@ button:focus {
 	}
 }
 .featurette-divider {
-    margin: 2rem 0 !important;
+    margin: 3em 0 !important;
 }
 .col-md-7 h2{
 	text-align: center;
@@ -88,7 +88,7 @@ button:focus {
 	letter-spacing: -.05rem;
 	font-size: 50px;
 	text-align: center;
-	padding: 30px 30px 10px 30px;
+	padding: 50px 30px 10px 30px;
 }
 .lead{
 	margin-bottom: 30px;
@@ -128,7 +128,7 @@ button:focus {
 	letter-spacing: -.05rem;
 	font-size: 50px;
 	text-align: center;
-	padding: 30px 30px 10px 30px;
+	padding: 0px 30px 10px 30px;
 	
 }
 .form-group {
