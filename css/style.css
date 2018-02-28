@@ -3,7 +3,7 @@
 }
 body{
 	padding-top: 0;
-	overflow-x:hidden;
+	/*overflow-x:hidden;*/
 	
 }
 .bg-dark{
@@ -44,6 +44,8 @@ body{
 }
 .row{
 	margin-top: 50px;
+	margin-left: 0;
+	margin-right: 0;
 }
 button:focus {
     
@@ -74,7 +76,7 @@ button:focus {
 	}
 }
 .featurette-divider {
-    margin: 1rem 0;
+    margin: 2rem 0 !important;
 }
 .col-md-7 h2{
 	text-align: center;
@@ -114,4 +116,21 @@ button:focus {
 		font-family: 'Krona One', sans-serif;
 		margin-right: 23px;
 	}
+}
+.btn-secondary{
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#AB6400), to(#FF7E28));
+	border-color: #ffffff;
+    border-color: #AB6400;
+}
+.text-center {
+	font-weight: 300;
+    line-height: 1;
+	letter-spacing: -.05rem;
+	font-size: 50px;
+	text-align: center;
+	padding: 30px 30px 10px 30px;
+	
+}
+.form-group {
+    margin-bottom: 0;
 }
