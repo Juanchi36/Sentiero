@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 
-    <title>Sentiero-Urbano</title>
+    <title>Sentiero-Urbano-Zapatillas</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,7 +21,7 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt=""></a>
-        <h1>Urbano</h1>
+        <h1>Zapatillas</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +34,7 @@
               <a class="nav-link" href="index.html#productos">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto#contacto">Contacto</a>
+              <a class="nav-link" href="index.html#contacto">Contacto</a>
             </li>
             <!--<li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
@@ -91,39 +91,55 @@
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
+      
+      <div class="grid"> 
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#1ModalCenter">
+            <img src="imagenes/thumbzapatilla2.jpg" alt=""/>
+          </button></a>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2ModalCenter">
+            <img src="imagenes/thumbbota2.jpg" alt=""/>
+          </button>
         
-        <div class="row">
-          
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="imagenes/urbano.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Botitas</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="botitas.html" role="button">Ver mas &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="imagenes/zapatilla.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Zapatillas</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="zapatillas.html" role="button">Ver mas &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="imagenes/casual.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Casual</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="casual.html" role="button">Ver mas &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-        
-
-      <hr class="featurette-divider"> 
-                                                                
+                    
+    </div>
+    <div class="modal fade" id="1ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modelo: Zapatilla Comet</h5>
+              
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <img class="foto-galeria" src="imagenes/athumbzapatilla2.jpg" alt="">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="2ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modelo: Bota Kiricocho</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <img class="foto-galeria" src="imagenes/athumbbota2.jpg" alt="">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+                                           
     
 
 
-
+      <hr class="featurette-divider">
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Volver</a></p>

@@ -137,3 +137,13 @@ button:focus {
 .grid{
 	padding: 90px;
 }
+.foto-galeria{
+	max-width: 100%;
+}
+.btn.focus, .btn:focus {
+    outline: none; 
+    box-shadow: none; 
+}
+.modal-body{
+	text-align: center;
+}
