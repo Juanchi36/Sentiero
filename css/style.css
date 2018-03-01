@@ -147,3 +147,6 @@ button:focus {
 .modal-body{
 	text-align: center;
 }
+.modal-footer p{
+	margin-right: 5%;
+}
